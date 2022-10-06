@@ -1,0 +1,69 @@
+<header class="d-flex  justify-content-center align-items-center text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand d-lg-none" href="#">RE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-between align-items-center" id="navbarNav">
+        <a class="navbar-brand d-none d-lg-block" href="#">
+          RE
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              HOME
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/Inicio']">
+              Novedades
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/Precios']">
+              Precios
+            </a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/About']">
+              Blog
+            </a>
+          </li>  
+        </ul>
+        <div>
+          <button class="btn btn-primary">
+            Sign Up
+          </button>
+          <button class="btn btn-light" id="navBtn">
+            Contacto
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container position-relative w-75">
+   <div class="row align-items-center">
+    <div class="col-12 col-lg-6 px-4">
+      <h1 class="display-4">
+        Lorem ipsum dolor sit amet
+      </h1>
+    </div>
+    <div class="col-12 col-lg-6 px-4">
+      <p>
+        Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. 
+        Commodi ab maiores vero ullam dolorum numquam iusto, 
+        eos rem, magnam quaerat eaque fugiat sed. 
+        Dignissimos, 
+        vel corrupti incidunt nulla voluptatum minus!
+      </p>
+      <button class="btn btn-primary btn-lg">
+        Botón Ejemplo
+      </button>
+    </div>
+   </div> 
+  </div>
+</header>
+
+

@@ -1,0 +1,121 @@
+{
+    "Hoja1": [
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "1,500,000",
+            "Precio por m2": "4285.714286",
+            "Ubicación": "N/A",
+            "año de construcción": "2001",
+            "Descripción": "N/A",
+            "Tamaño de lote": "350"
+        },
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "3,000,000",
+            "Precio por m2": "5454.545455",
+            "Ubicación": "N/A",
+            "año de construcción": "1970",
+            "Descripción": "N/A",
+            "Tamaño de lote": "550"
+        },
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "5,000,000",
+            "Precio por m2": "33333.33333",
+            "Ubicación": "N/A",
+            "año de construcción": "1941",
+            "Descripción": "N/A",
+            "Tamaño de lote": "150"
+        },
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "840,000",
+            "Precio por m2": "8400",
+            "Ubicación": "N/A",
+            "año de construcción": "2005",
+            "Descripción": "N/A",
+            "Tamaño de lote": "100"
+        },
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "1,000,000",
+            "Precio por m2": "4545.454545",
+            "Ubicación": "N/A",
+            "año de construcción": "2000",
+            "Descripción": "N/A",
+            "Tamaño de lote": "220"
+        },
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "1,200,000",
+            "Precio por m2": "6000",
+            "Ubicación": "N/A",
+            "año de construcción": "2004",
+            "Descripción": "N/A",
+            "Tamaño de lote": "200"
+        },
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "1,000,000",
+            "Precio por m2": "5555.555556",
+            "Ubicación": "N/A",
+            "año de construcción": "2010",
+            "Descripción": "N/A",
+            "Tamaño de lote": "180"
+        },
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "900,000",
+            "Precio por m2": "3214.285714",
+            "Ubicación": "N/A",
+            "año de construcción": "2000",
+            "Descripción": "N/A",
+            "Tamaño de lote": "280"
+        },
+        {
+            "Tipo de lote": "Residencial",
+            "Precio del lote": "2,500,000",
+            "Precio por m2": "7142.857143",
+            "Ubicación": "N/A",
+            "año de construcción": "1990",
+            "Descripción": "N/A",
+            "Tamaño de lote": "350"
+        },
+        {
+            "Tipo de lote": "Comercial",
+            "Precio del lote": "8,000,000",
+            "Precio por m2": "13333.33333",
+            "Ubicación": "N/A",
+            "año de construcción": "2000",
+            "Descripción": "N/A",
+            "Tamaño de lote": "600"
+        },
+        {
+            "Tipo de lote": "Comercial",
+            "Precio del lote": "7,000,000",
+            "Precio por m2": "10769.23077",
+            "Ubicación": "N/A",
+            "año de construcción": "2001",
+            "Descripción": "N/A",
+            "Tamaño de lote": "650"
+        },
+        {
+            "Tipo de lote": "Comercial",
+            "Precio del lote": "7,500,000",
+            "Precio por m2": "15000",
+            "Ubicación": "N/A",
+            "año de construcción": "1993",
+            "Descripción": "N/A",
+            "Tamaño de lote": "500"
+        },
+        {
+            "Tipo de lote": "Comercial",
+            "Precio del lote": "19,000,000",
+            "Precio por m2": "15833.33333",
+            "Ubicación": "N/A",
+            "año de construcción": "1985",
+            "Descripción": "N/A",
+            "Tamaño de lote": "1200"
+        }
+    ]
+}
