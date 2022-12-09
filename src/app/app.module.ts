@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-
+import { FormsModule } from '@angular/forms';
+import {HttpClientModule}from '@angular/common/http';
+import {InmueblesService} from '../app/components/Precios/precios/inmuebles.service';
+import {AgentesService} from '../app/components/Agentes/agentes/agentes.service';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/NAVBAR/navbar/navbar.component';
+import { NavbarComponent } from './components/navbar/navbar/navbar.component';
 import {AppRoutingModule} from '../assets/Routes/app.routes';
 import { InicioComponent } from './components/Inicio/inicio/inicio.component';
 import { AboutComponent } from './components/About/about/about.component';
-import { PreciosComponent } from './components/Precios/precios/precios.component'
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-
+import { PreciosComponent } from './components/Precios/precios/precios.component';
+import { AgentesComponent } from './components/Agentes/agentes/agentes.component';
 
 @NgModule({
   declarations: [
@@ -17,15 +18,19 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     InicioComponent,
     AboutComponent,
-    PreciosComponent
+    PreciosComponent,
+    AgentesComponent,
+    
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    AppRoutingModule
-    
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    InmueblesService,
+    AgentesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
